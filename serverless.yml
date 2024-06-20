@@ -2,7 +2,7 @@ service: copa-america-2024-goal-predictor
 
 provider:
   name: aws
-  runtime: python3.10
+  runtime: python3.9
   region: us-east-1
   iam:
     role: arn:aws:iam::451049620221:role/serverless-execution-role
