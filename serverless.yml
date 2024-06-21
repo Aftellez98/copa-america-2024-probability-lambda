@@ -10,7 +10,4 @@ provider:
 functions:
   predictGoal:
     handler: handler.predict_goal
-    events:
-      - http:
-          path: predict
-          method: get
+    memorySize: 128
