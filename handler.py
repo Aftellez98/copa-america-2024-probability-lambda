@@ -2,7 +2,7 @@ from src.lib.probability_calculator import probability
 
 def predict_goal(event, context):
 
-    candidates = ["Argentina", "Uruguay", "Colombia", "Brasil",
+    candidates = ["Argentina", "Uruguay", "Colombia", "Brasil", "Ecuador",
                   "Paraguay", "Peru", "Venezuela", "Bolivia", "Chile",
                   "USA", "Canada", "Mexico", "Salvador",
                   "CostaRica", "Panama", "Jamaica"]
@@ -58,7 +58,7 @@ def predict_goal(event, context):
 # Example event to test the function locally
 if __name__ == "__main__":
     event = {
-        "team_a": "Peru",
-        "team_b": "Chile"
+        "team_a": "Ecuador",
+        "team_b": "Colombia"
     }
     predict_goal(event, None)
