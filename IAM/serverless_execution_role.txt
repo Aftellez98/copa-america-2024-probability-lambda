@@ -8,7 +8,7 @@
                 "logs:CreateLogStream",
                 "logs:PutLogEvents"
             ],
-            "Resource": "arn:aws:logs:us-east-1:<ACCOUNT_ID>:log-group:/aws/lambda/copa-america-2024-goal-predictor:*"
+            "Resource": "arn:aws:logs:*:*:*"
         }
     ]
 }
