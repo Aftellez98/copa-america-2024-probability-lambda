@@ -80,7 +80,7 @@ def predict_goal(event, context):
 # Example event to test the function locally
 if __name__ == "__main__":
     event = {
-        "team_a": "Mexico",
-        "team_b": "Jamaica"
+        "team_a": "Venezuela",
+        "team_b": "Colombia"
     }
     predict_goal(event, None)

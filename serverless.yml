@@ -5,7 +5,7 @@ provider:
   runtime: python3.9
   region: us-east-1
   iam:
-    role: arn:aws:iam::451049620221:role/serverless-execution-role
+    role: arn:aws:iam::<ACCOUNT_ID>:role/serverless-execution-role
 
 functions:
   predictGoal:
